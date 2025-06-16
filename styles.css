@@ -1,0 +1,36 @@
+.set {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px; /* Optional: spacing between cells */
+    max-width: 200px; /* Optional: limits width */
+    margin: 30px auto; /* Centers the grid */
+}
+
+.set div {
+    padding: 10px;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    font-weight: bold;
+}
+
+#blue{
+    background-color:rgb(44, 83, 209);
+   color: white;
+}
+
+#red{
+    background-color:rgb(209, 85, 44);
+   color: white;
+}
+
+#green{
+   
+        background-color:rgb(44, 209, 165);
+       color: white;
+}
+
+#yellow{
+    background-color:rgb(134, 164, 15);
+   color: white;
+}
