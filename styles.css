@@ -14,6 +14,8 @@
     font-weight: bold;
 }
 
+
+
 #blue{
     background-color:rgb(44, 83, 209);
    color: white;
@@ -33,4 +35,10 @@
 #yellow{
     background-color:rgb(134, 164, 15);
    color: white;
+}
+
+body{
+    background-image:url("Desert_Background-1162.jpg");
+    background-repeat:none ;
+    background-position: center;
 }
